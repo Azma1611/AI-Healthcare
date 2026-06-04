@@ -1,0 +1,477 @@
+{
+  "users": [
+    {
+      "name": "Yaso",
+      "email": "yaso@asu-yaso.app",
+      "password": "$2a$12$69Y7F/neYfM6Uvm8uS4ucOpySR4nIxqTIZYOTnSeMKJ6shu/gapfK",
+      "role": "yaso",
+      "avatar": "🌙",
+      "theme": "skyBlue",
+      "_id": "1iu1n6d97uzeak4bcs9hvt",
+      "createdAt": "2026-05-30T14:33:57.987Z",
+      "updatedAt": "2026-05-30T14:33:57.987Z"
+    },
+    {
+      "name": "Asu",
+      "email": "asu@asu-yaso.app",
+      "password": "$2a$12$tSEiSWUCN.u.PiQVRPCcSeCbh3bqB.tZwv2wul4e1mjq5glK3XWWi",
+      "role": "asu",
+      "avatar": "🌸",
+      "theme": "pinkDream",
+      "_id": "hbs9y5vj8gsu1gdgmbymg",
+      "createdAt": "2026-05-30T14:53:37.013Z",
+      "updatedAt": "2026-05-30T14:53:37.013Z"
+    }
+  ],
+  "habits": [
+    {
+      "name": "Hydration checkpoint",
+      "streak": 11,
+      "completed": true,
+      "owner": "1iu1n6d97uzeak4bcs9hvt",
+      "_id": "bbmbfrppxtf8v4aepxvfc4",
+      "createdAt": "2026-05-30T14:33:59.309Z",
+      "updatedAt": "2026-05-30T14:33:59.309Z"
+    },
+    {
+      "name": "Expense check",
+      "streak": 8,
+      "completed": false,
+      "owner": "1iu1n6d97uzeak4bcs9hvt",
+      "_id": "qm5wxv2ypn9xmt2r9me4mf",
+      "createdAt": "2026-05-30T14:33:59.309Z",
+      "updatedAt": "2026-05-30T14:33:59.309Z"
+    },
+    {
+      "name": "Matcha & morning reflection",
+      "streak": 18,
+      "completed": true,
+      "owner": "hbs9y5vj8gsu1gdgmbymg",
+      "_id": "smwvbhlw0wneph27h191f",
+      "createdAt": "2026-05-30T14:53:37.729Z",
+      "updatedAt": "2026-05-30T14:53:37.729Z"
+    },
+    {
+      "name": "Push 1 clean commit",
+      "streak": 5,
+      "completed": false,
+      "owner": "hbs9y5vj8gsu1gdgmbymg",
+      "_id": "jkh2bvt8t5eqrvavd2xhv",
+      "createdAt": "2026-05-30T14:53:37.729Z",
+      "updatedAt": "2026-05-30T14:53:37.729Z"
+    },
+    {
+      "name": "Duolingo sprint",
+      "streak": 12,
+      "completed": true,
+      "owner": "hbs9y5vj8gsu1gdgmbymg",
+      "_id": "mgyddagf31gh1b0liws2x5",
+      "createdAt": "2026-05-30T14:53:37.729Z",
+      "updatedAt": "2026-05-30T14:53:37.729Z"
+    }
+  ],
+  "goals": [
+    {
+      "title": "Reach monthly savings",
+      "category": "Finance",
+      "description": "Save 15k while tracking daily income and spending.",
+      "progress": 62,
+      "deadline": "2026-05-31",
+      "target": "15000",
+      "owner": "1iu1n6d97uzeak4bcs9hvt",
+      "_id": "ibigugif5afudnmhbjc0o",
+      "createdAt": "2026-05-30T14:33:59.307Z",
+      "updatedAt": "2026-05-30T14:33:59.307Z"
+    },
+    {
+      "title": "Finish German project",
+      "category": "Study",
+      "description": "Complete the German essay and presentation by Monday.",
+      "progress": 70,
+      "deadline": "2026-05-30",
+      "target": "Essay + slides",
+      "owner": "hbs9y5vj8gsu1gdgmbymg",
+      "_id": "xl9mafdjnny2aenym9e29",
+      "createdAt": "2026-05-30T14:53:37.726Z",
+      "updatedAt": "2026-05-30T14:53:37.726Z"
+    },
+    {
+      "title": "AI summer internship prep",
+      "category": "Career",
+      "description": "Build robotics portfolio and prepare interview answers.",
+      "progress": 42,
+      "deadline": "2026-06-15",
+      "target": "Portfolio ready",
+      "owner": "hbs9y5vj8gsu1gdgmbymg",
+      "_id": "vnqcdk0ebya6qotldgzplg",
+      "createdAt": "2026-05-30T14:53:37.726Z",
+      "updatedAt": "2026-05-30T14:53:37.726Z"
+    }
+  ],
+  "savings": [
+    {
+      "amount": 3000,
+      "category": "Emergency",
+      "note": "Buffer",
+      "date": "2026-05-22",
+      "owner": "1iu1n6d97uzeak4bcs9hvt",
+      "_id": "gc2n8eqoe24zqizfklo4y",
+      "createdAt": "2026-05-30T14:33:59.310Z",
+      "updatedAt": "2026-05-30T14:33:59.310Z"
+    },
+    {
+      "amount": 1200,
+      "category": "Travel",
+      "note": "Weekend trip",
+      "date": "2026-05-23",
+      "owner": "1iu1n6d97uzeak4bcs9hvt",
+      "_id": "v9e3a6193wzs2mziu01l",
+      "createdAt": "2026-05-30T14:33:59.311Z",
+      "updatedAt": "2026-05-30T14:33:59.311Z"
+    },
+    {
+      "amount": 2000,
+      "category": "Allowance",
+      "note": "Part-time tutoring",
+      "date": "2026-05-20",
+      "owner": "hbs9y5vj8gsu1gdgmbymg",
+      "_id": "undmhlnxppi94rnjm66sra",
+      "createdAt": "2026-05-30T14:53:37.731Z",
+      "updatedAt": "2026-05-30T14:53:37.731Z"
+    },
+    {
+      "amount": 1500,
+      "category": "Gift",
+      "note": "Birthday gift saved",
+      "date": "2026-05-22",
+      "owner": "hbs9y5vj8gsu1gdgmbymg",
+      "_id": "6robpwwnxqu24xrrg6zry9",
+      "createdAt": "2026-05-30T14:53:37.731Z",
+      "updatedAt": "2026-05-30T14:53:37.731Z"
+    }
+  ],
+  "expenses": [
+    {
+      "amount": 900,
+      "category": "Food",
+      "note": "Meal prep",
+      "date": "2026-05-22",
+      "owner": "1iu1n6d97uzeak4bcs9hvt",
+      "_id": "3ebafl8j81uqf0ztf4znae",
+      "createdAt": "2026-05-30T14:33:59.312Z",
+      "updatedAt": "2026-05-30T14:33:59.312Z"
+    },
+    {
+      "amount": 1500,
+      "category": "Utilities",
+      "note": "Electricity bill",
+      "date": "2026-05-20",
+      "owner": "1iu1n6d97uzeak4bcs9hvt",
+      "_id": "ozaij9gn3weiv46zrmpbfg",
+      "createdAt": "2026-05-30T14:33:59.312Z",
+      "updatedAt": "2026-05-30T14:33:59.312Z"
+    },
+    {
+      "amount": 650,
+      "category": "Groceries",
+      "note": "Cafe snacks",
+      "date": "2026-05-20",
+      "owner": "hbs9y5vj8gsu1gdgmbymg",
+      "_id": "cq309trbzl6uai2bhkf4vs",
+      "createdAt": "2026-05-30T14:53:37.735Z",
+      "updatedAt": "2026-05-30T14:53:37.735Z"
+    },
+    {
+      "amount": 320,
+      "category": "Transport",
+      "note": "Campus bus",
+      "date": "2026-05-22",
+      "owner": "hbs9y5vj8gsu1gdgmbymg",
+      "_id": "m5aug85fjpnc6232gdwoc",
+      "createdAt": "2026-05-30T14:53:37.735Z",
+      "updatedAt": "2026-05-30T14:53:37.735Z"
+    }
+  ],
+  "earnings": [
+    {
+      "amount": 5200,
+      "source": "Daily income",
+      "note": "Freelance app",
+      "date": "2026-05-23",
+      "owner": "1iu1n6d97uzeak4bcs9hvt",
+      "_id": "opoedwhuhli4o6q1sy2ssl",
+      "createdAt": "2026-05-30T14:33:59.314Z",
+      "updatedAt": "2026-05-30T14:33:59.314Z"
+    },
+    {
+      "amount": 1800,
+      "source": "Weekly bonus",
+      "note": "Project milestone",
+      "date": "2026-05-20",
+      "owner": "1iu1n6d97uzeak4bcs9hvt",
+      "_id": "yprvxaxfov5suf2nby7ep",
+      "createdAt": "2026-05-30T14:33:59.314Z",
+      "updatedAt": "2026-05-30T14:33:59.314Z"
+    },
+    {
+      "amount": 2500,
+      "source": "Freelance",
+      "note": "Graphic design",
+      "date": "2026-05-21",
+      "owner": "hbs9y5vj8gsu1gdgmbymg",
+      "_id": "9zfba49pdpe6u5zzsfr18",
+      "createdAt": "2026-05-30T14:53:37.737Z",
+      "updatedAt": "2026-05-30T14:53:37.737Z"
+    },
+    {
+      "amount": 1200,
+      "source": "Tutoring",
+      "note": "German lesson",
+      "date": "2026-05-23",
+      "owner": "hbs9y5vj8gsu1gdgmbymg",
+      "_id": "f0m3gavrmavx6es8qjizt",
+      "createdAt": "2026-05-30T14:53:37.737Z",
+      "updatedAt": "2026-05-30T14:53:37.737Z"
+    }
+  ],
+  "reminders": [
+    {
+      "title": "Run water reminder",
+      "date": "2026-05-24",
+      "owner": "1iu1n6d97uzeak4bcs9hvt",
+      "_id": "3ji7j86u06g9n3d3lvp498",
+      "createdAt": "2026-05-30T14:33:59.315Z",
+      "updatedAt": "2026-05-30T14:33:59.315Z"
+    },
+    {
+      "title": "Send expense summary",
+      "date": "2026-05-25",
+      "owner": "1iu1n6d97uzeak4bcs9hvt",
+      "_id": "pqee7h7h60lg43l1r5fhg",
+      "createdAt": "2026-05-30T14:33:59.315Z",
+      "updatedAt": "2026-05-30T14:33:59.315Z"
+    },
+    {
+      "title": "German vocab review",
+      "date": "2026-05-24",
+      "owner": "hbs9y5vj8gsu1gdgmbymg",
+      "_id": "ok0z8tfnjin5zkr0206vr3",
+      "createdAt": "2026-05-30T14:53:37.739Z",
+      "updatedAt": "2026-05-30T14:53:37.739Z"
+    },
+    {
+      "title": "Submit robotics report",
+      "date": "2026-05-25",
+      "owner": "hbs9y5vj8gsu1gdgmbymg",
+      "_id": "mt6drndsst750s0dr7dc3e",
+      "createdAt": "2026-05-30T14:53:37.739Z",
+      "updatedAt": "2026-05-30T14:53:37.739Z"
+    }
+  ],
+  "notes": [],
+  "studies": [],
+  "languages": [
+    {
+      "key": "english",
+      "level": "B2",
+      "dailyStreak": 14,
+      "wordsLearned": 920,
+      "speakingConfidence": 7,
+      "lastPractice": "2026-05-23",
+      "dailyGoal": 12,
+      "todayProgress": 10,
+      "entries": [
+        {
+          "date": "2026-05-23",
+          "activity": "Conversation",
+          "value": 1
+        }
+      ],
+      "owner": "1iu1n6d97uzeak4bcs9hvt",
+      "_id": "spay9ck230du2n6qpfwdf",
+      "createdAt": "2026-05-30T14:33:59.321Z",
+      "updatedAt": "2026-05-30T14:33:59.321Z"
+    },
+    {
+      "key": "german",
+      "level": "B1",
+      "dailyStreak": 12,
+      "wordsLearned": 780,
+      "speakingConfidence": 7,
+      "lastPractice": "2026-05-23",
+      "dailyGoal": 20,
+      "todayProgress": 16,
+      "entries": [
+        {
+          "date": "2026-05-23",
+          "activity": "Listening",
+          "value": 1
+        }
+      ],
+      "owner": "hbs9y5vj8gsu1gdgmbymg",
+      "_id": "bc5fl10nzpsg31ja6hrsf",
+      "createdAt": "2026-05-30T14:53:37.744Z",
+      "updatedAt": "2026-05-30T14:53:37.744Z"
+    },
+    {
+      "key": "english",
+      "level": "C1",
+      "dailyStreak": 28,
+      "wordsLearned": 1420,
+      "speakingConfidence": 9,
+      "lastPractice": "2026-05-23",
+      "dailyGoal": 15,
+      "todayProgress": 15,
+      "entries": [
+        {
+          "date": "2026-05-23",
+          "activity": "Speaking",
+          "value": 1
+        }
+      ],
+      "owner": "hbs9y5vj8gsu1gdgmbymg",
+      "_id": "jdkoa1ok6dlyu81vi7gfa",
+      "createdAt": "2026-05-30T14:53:37.744Z",
+      "updatedAt": "2026-05-30T14:53:37.744Z"
+    },
+    {
+      "key": "malayalam",
+      "level": "A2",
+      "dailyStreak": 9,
+      "wordsLearned": 320,
+      "speakingConfidence": 6,
+      "lastPractice": "2026-05-22",
+      "dailyGoal": 10,
+      "todayProgress": 8,
+      "entries": [
+        {
+          "date": "2026-05-22",
+          "activity": "Reading",
+          "value": 1
+        }
+      ],
+      "owner": "hbs9y5vj8gsu1gdgmbymg",
+      "_id": "6eyq2mmtl39a3yaitvj1jo",
+      "createdAt": "2026-05-30T14:53:37.744Z",
+      "updatedAt": "2026-05-30T14:53:37.744Z"
+    }
+  ],
+  "healths": [
+    {
+      "owner": "1iu1n6d97uzeak4bcs9hvt",
+      "waterReminder": {
+        "daily": 10,
+        "completed": 6
+      },
+      "sleepTracker": [
+        {
+          "date": "2026-05-22",
+          "hours": 7
+        },
+        {
+          "date": "2026-05-23",
+          "hours": 6.5
+        }
+      ],
+      "foodReminders": [
+        {
+          "meal": "Breakfast",
+          "time": "07:30",
+          "completed": true
+        },
+        {
+          "meal": "Lunch",
+          "time": "13:15",
+          "completed": true
+        },
+        {
+          "meal": "Dinner",
+          "time": "21:00",
+          "completed": false
+        }
+      ],
+      "_id": "xz4iy5mzesevcg5q87up8n",
+      "createdAt": "2026-05-30T14:33:59.325Z",
+      "updatedAt": "2026-05-30T14:33:59.325Z"
+    },
+    {
+      "owner": "hbs9y5vj8gsu1gdgmbymg",
+      "waterReminder": {
+        "daily": 8,
+        "completed": 5
+      },
+      "sleepTracker": [
+        {
+          "date": "2026-05-22",
+          "hours": 7.4
+        },
+        {
+          "date": "2026-05-23",
+          "hours": 6.8
+        }
+      ],
+      "foodReminders": [
+        {
+          "meal": "Breakfast",
+          "time": "08:30",
+          "completed": true
+        },
+        {
+          "meal": "Lunch",
+          "time": "13:00",
+          "completed": false
+        },
+        {
+          "meal": "Dinner",
+          "time": "20:30",
+          "completed": false
+        }
+      ],
+      "_id": "4tc3s7m1xx85atfoc8j3p",
+      "createdAt": "2026-05-30T14:53:37.748Z",
+      "updatedAt": "2026-05-30T14:53:37.748Z"
+    }
+  ],
+  "worktasks": [
+    {
+      "title": "Client follow-up",
+      "completed": true,
+      "owner": "1iu1n6d97uzeak4bcs9hvt",
+      "_id": "4edn2tagqg5e61cccymkxl",
+      "createdAt": "2026-05-30T14:33:59.317Z",
+      "updatedAt": "2026-05-30T14:33:59.317Z"
+    },
+    {
+      "title": "Weekly report",
+      "completed": false,
+      "owner": "1iu1n6d97uzeak4bcs9hvt",
+      "_id": "vm6pn2ao9q9x7st0lhng6k",
+      "createdAt": "2026-05-30T14:33:59.317Z",
+      "updatedAt": "2026-05-30T14:33:59.317Z"
+    },
+    {
+      "title": "Income forecast",
+      "completed": false,
+      "owner": "1iu1n6d97uzeak4bcs9hvt",
+      "_id": "wkxupchxmbo2xlgdkrtf7z",
+      "createdAt": "2026-05-30T14:33:59.317Z",
+      "updatedAt": "2026-05-30T14:33:59.317Z"
+    },
+    {
+      "title": "Design AI model flow",
+      "completed": true,
+      "owner": "hbs9y5vj8gsu1gdgmbymg",
+      "_id": "lwlr58y9yqcmf7k5haz8je",
+      "createdAt": "2026-05-30T14:53:37.742Z",
+      "updatedAt": "2026-05-30T14:53:37.742Z"
+    },
+    {
+      "title": "Submit research notes",
+      "completed": false,
+      "owner": "hbs9y5vj8gsu1gdgmbymg",
+      "_id": "6b2njv098b3ldkk4ywaa5k",
+      "createdAt": "2026-05-30T14:53:37.742Z",
+      "updatedAt": "2026-05-30T14:53:37.742Z"
+    }
+  ]
+}
