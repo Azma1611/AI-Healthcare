@@ -1,0 +1,53 @@
+# Configuration for Healthcare AI System
+
+project:
+  name: "AI-Powered Intelligent Healthcare Diagnosis and Clinical Decision Support System"
+  version: "0.1.0"
+  description: "Educational/Research Prototype for AI-assisted clinical decision-support."
+
+paths:
+  data:
+    raw: "data/raw/"
+    processed: "data/processed/"
+    train: "data/train/"
+    validation: "data/validation/"
+    test: "data/test/"
+  models: "models/"
+  reports: "reports/"
+
+preprocessing:
+  test_size: 0.2
+  random_state: 42
+  image_size: [224, 224]
+  text_max_length: 512
+
+training:
+  batch_size: 32
+  epochs: 50
+  learning_rate: 0.001
+  early_stopping_patience: 5
+
+evaluation:
+  metrics:
+    - "accuracy"
+    - "precision"
+    - "recall"
+    - "f1_score"
+    - "roc_auc"
+
+dashboard:
+  title: "AI Healthcare System Dashboard"
+  theme: "light"
+  port: 8501
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+  prefix: "/api/v1"
+
+security:
+  # Note: Do not hard-code secrets or real API keys here.
+  # Use environment variables for sensitive information in production.
+  enable_cors: true
+  allowed_origins:
+    - "*"
